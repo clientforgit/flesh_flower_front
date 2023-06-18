@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <title>FRESH FLOWERs</title>
+    <link href="/css/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <header class="layout header">
+            <div class="top-header">
+                <img src="/images/logo_dark.svg" class="header-logo" alt="Logo">
+                <div class="title-header-nav">
+                    <b>Про нас</b>
+                    <b>Каталог</b>
+                    <b>FAQ</b>
+                    <div class="title-header-icon">
+                        <img src="/images/cart_dark.svg">
+                        <img src="/images/user_dark.svg">
+                    </div>
+                </div>
+                <div class="menu" onclick="open_hidden_header()">
+                    <img src="images/menu_dark.svg">
+                </div>
+            </div>
+            <div class="hidden-header" id="hidden_header">
+                <h3>Про нас</h3>
+                <h3>Каталог</h3>
+                <h3>FAQ</h3>
+                <h3>Особистий кабінет</h3>
+                <h3>Корзина</h3>
+                <hr class="thin">
+            </div>
+        </header>
+        <div class="layout padding-container">
+            <h2>Іриси</h2>
+            <p class="path">Домашня сторінка / Каталог / Іриси</p>
+            <div class="catalog">
+                <div class="filter">
+                    <h3 class="title">Фільтр</h3>
+                    <hr class="thin">
+                    <div class="item" onclick="opensection('category')">
+                        <h3>Категорії</h3>
+                        <img src="/images/plus.svg" alt="Add" id="category_img">
+                    </div>
+                    <div id="category" class="details">
+                        <p>Мікс букети</p>
+                        <p>Моно букети</p>
+                        <p>Весільні букети</p>
+                    </div>
+                    <hr class="thin">
+                    <div class="item" onclick="opensection('flower_type')">
+                        <h3>Тип квітів</h3>
+                        <img src="/images/plus.svg" alt="Add" id="flower_type_img">
+                    </div>
+                    <div id="flower_type" class="details">
+                        <p>Троянди</p>
+                        <p>Тюльпани</p>
+                        <p>Іриси</p>
+                    </div>
+                    <hr class="thin">
+                    <div class="item" onclick="opensection('price')">
+                        <h3>Ціна</h3>
+                        <img src="/images/plus.svg" alt="Add" id="price_img">
+                    </div>
+                    <div id="price" class="details">
+                        <p>До 1000 грн</p>
+                        <p>1000-2000 грн</p>
+                        <p>2000-5000 грн</p>
+                    </div>
+                    <hr class="thin">
+                    <div class="item" onclick="opensection('material')">
+                        <h3>Матеріал</h3>
+                        <img src="/images/plus.svg" alt="Add" id="material_img">
+                    </div>
+                    <div id="material" class="details">
+                        <p>Плівка</p>
+                        <p>Папір</p>
+                        <p>Сітка</p>
+                    </div>
+                    <hr class="thin">
+                    <div class="item" onclick="opensection('size')">
+                        <h3>Розмір</h3>
+                        <img src="/images/plus.svg" alt="Add" id="size_img">
+                    </div>
+                    <div id="size" class="details">
+                        <p>Малі</p>
+                        <p>Середні</p>
+                        <p>Великі</p>
+                    </div>
+                    <hr class="thin">
+                    <div class="item" onclick="opensection('color')">
+                        <h3>Колір</h3>
+                        <img src="/images/plus.svg" alt="Add" id="color_img">
+                    </div>
+                    <div id="color" class="details">
+                        <p>Білий</p>
+                        <p>Червоний</p>
+                        <p>Жовтий</p>
+                        <p>Фіолетовий</p>
+                    </div>
+                    <hr class="thin">
+                </div>
+                <div class="products-container">
+                    <h3 class="sort">Сортувати по&nbsp;&nbsp;<img src="/images/arrow_down.svg" alt="Arrow down"></h3>
+                    <div class="products">
+                        <div class="products-grid">
+                            <div class="catalog-item">
+                                <img src="/images/catalog_item1.png">
+                                <p>Букет "51 ірис"</p>
+                                <p class="price">Ціна: 2600 грн</p>
+                            </div>
+                            <div class="catalog-item">
+                                <img src="/images/catalog_item2.png">
+                                <p>Букет "Спокуса"</p>
+                                <p class="price">Ціна: 3100 грн</p>
+                            </div>
+                            <div class="catalog-item">
+                                <img src="/images/catalog_item3.png">
+                                <p>Букет "Срібло"</p>
+                                <p class="price">Ціна: 2350 грн</p>
+                            </div>
+                            <div class="catalog-item">
+                                <img src="/images/catalog_item4.png">
+                                <p>Букет "Подих весни"</p>
+                                <p class="price">Ціна: 1760 грн</p>
+                            </div>
+                            <div class="catalog-item">
+                                <img src="/images/catalog_item5.png">
+                                <p>Букет "Весняний промінь"</p>
+                                <p class="price">Ціна: 1159 грн</p>
+                            </div>
+                            <div class="catalog-item">
+                                <img src="/images/catalog_item6.png">
+                                <p>Букет "Солодка цукерка"</p>
+                                <p class="price">Ціна: 1066 грн</p>
+                            </div>
+                        </div>
+                        <button class="more">Більше</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="layout">
+        <h2>FRESH FLOWERs</h2>
+        <div class="links">
+            <p>Про нас</p>
+            <p>Магазин</p>
+            <p>Контакти</p>
+            <p>Кошик</p>
+            <p>Доставка</p>
+        </div>
+        <div class="icons">
+            <img src="/images/mail_white.svg" alt="Mail">
+            <img src="/images/facebook_white.svg" alt="Facebook">
+            <img src="/images/instagram_white.svg" alt="Instagram">
+        </div>
+        <p class="copyright">2023 FRESH FLOWERS</p>
+        <img src="/images/scroll_button.svg" class="scroll-button" alt="To the top" onclick="scrollToTop()">
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

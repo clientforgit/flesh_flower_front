@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <title>FRESH FLOWERs</title>
+    <link href="/css/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <header class="layout header">
+            <div class="top-header">
+                <img src="/images/logo_dark.svg" class="header-logo" alt="Logo">
+                <div class="title-header-nav">
+                    <b>Про нас</b>
+                    <b>Каталог</b>
+                    <b>FAQ</b>
+                    <div class="title-header-icon">
+                        <img src="/images/cart_dark.svg">
+                        <img src="/images/user_dark.svg">
+                    </div>
+                </div>
+                <div class="menu" onclick="open_hidden_header()">
+                    <img src="images/menu_dark.svg">
+                </div>
+            </div>
+            <div class="hidden-header" id="hidden_header">
+                <h3>Про нас</h3>
+                <h3>Каталог</h3>
+                <h3>FAQ</h3>
+                <h3>Особистий кабінет</h3>
+                <h3>Корзина</h3>
+                <hr class="thin">
+            </div>
+        </header>
+        <div class="confirm-order-container layout">
+            <div class="order-path">
+                <h3>Картка покупок</h3>
+                <img src="images/arrow_right.svg">
+                <p>Доставка</p>
+                <img id="inactive" src="images/arrow_right.svg">
+                <p>Оплата</p>
+            </div>
+            <div class="order-content">
+                <div class="order">
+                    <h2>Карта покупок</h2>
+                    <hr>
+                    <div class="item">
+                        <img src="/images/catalog_item6.png">
+                        <div class="text">
+                            <h3>Букет 'Солодка цукерка'</h3>
+                            <p>Ціна: 1066 грн</p>
+                            <p>Колір: фіолетовий/білий</p>
+                            <p>Кількість: 1&nbsp;&nbsp;<img src="/images/arrow_down.svg"></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item">
+                        <img src="/images/catalog_item5.png">
+                        <div class="text">
+                            <h3>Букет 'Весняний промінь'</h3>
+                            <p>Ціна: 1159 грн</p>
+                            <p>Колір: фіолетовий/білий/жовтий</p>
+                            <p>Кількість: 1&nbsp;&nbsp;<img src="/images/arrow_down.svg"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="total">
+                    <h2>Всього</h2>
+                    <hr>
+                    <div class="wide-text">
+                        <h3>Проміжний підсумок</h3>
+                        <h3>2225 грн</h3>
+                    </div>
+                    <div class="wide-text">
+                        <h3>Доставка</h3>
+                        <h3>—</h3>
+                    </div>
+                    <hr>
+                    <div class="wide-text">
+                        <h3>Всього</h3>
+                        <h3>2225 грн</h3>
+                    </div>
+                    <div class="wide-text">
+                        <h3>Знижка</h3>
+                        <img src="/images/arrow_right.svg">
+                    </div>
+                    <hr>
+                    <button class="order-now-button">
+                        Оформити замовлення
+                    </button>
+                    <a href="#" class="continue-shopping"><h3>Продовжити покупки</h3></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="layout">
+        <h2>FRESH FLOWERs</h2>
+        <div class="links">
+            <p>Про нас</p>
+            <p>Магазин</p>
+            <p>Контакти</p>
+            <p>Кошик</p>
+            <p>Доставка</p>
+        </div>
+        <div class="icons">
+            <img src="/images/mail_white.svg" alt="Mail">
+            <img src="/images/facebook_white.svg" alt="Facebook">
+            <img src="/images/instagram_white.svg" alt="Instagram">
+        </div>
+        <p class="copyright">2023 FRESH FLOWERS</p>
+        <img src="/images/scroll_button.svg" class="scroll-button" alt="To the top" onclick="scrollToTop()">
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

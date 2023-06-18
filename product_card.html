@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <title>FRESH FLOWERs</title>
+  <link href="/css/style.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+</head>
+<body>
+<div class="container">
+  <header class="layout header">
+    <div class="top-header">
+      <img src="/images/logo_dark.svg" class="header-logo" alt="Logo">
+      <div class="title-header-nav">
+        <b>Про нас</b>
+        <b>Каталог</b>
+        <b>FAQ</b>
+        <div class="title-header-icon">
+          <img src="/images/cart_dark.svg">
+          <img src="/images/user_dark.svg">
+        </div>
+      </div>
+      <div class="menu" onclick="open_hidden_header()">
+        <img src="images/menu_dark.svg">
+      </div>
+    </div>
+    <div class="hidden-header" id="hidden_header">
+      <h3>Про нас</h3>
+      <h3>Каталог</h3>
+      <h3>FAQ</h3>
+      <h3>Особистий кабінет</h3>
+      <h3>Корзина</h3>
+      <hr class="thin">
+    </div>
+  </header>
+  <div class="card-container layout">
+    <p class="path">Домашня сторінка / Каталог / Іриси</p>
+    <h2>Букет "Срібло"</h2>
+      <div class="card">
+        <img src="images/catalog_item3.png">
+        <div class="background">
+          <div class="card-content">
+            <h2>Букет "Срібло"</h2>
+            <h3>Ціна: 2350 грн</h3>
+            <hr class="thin">
+            <h3>
+              Опис букету:<br>
+              Весняний букет для найніжнішої та найчуттєвішої
+            </h3>
+            <h3>
+              Склад:<br>
+              35 білих тюльпанів, 16 ірисів, берграс, оформлення
+            </h3>
+            <div class="region">
+              <h3>Доставка в Київ (</h3>
+              <p>змінити регіон</p>
+              <h3>)</h3>
+            </div>
+            <hr class="thin">
+            <p>Найближча дата доставки: 28.05.2023</p>
+            <button class="order-button">
+              <img src="images/cart_dark.svg">
+              Замовити
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="layout">
+  <h2>FRESH FLOWERs</h2>
+  <div class="links">
+    <p>Про нас</p>
+    <p>Магазин</p>
+    <p>Контакти</p>
+    <p>Кошик</p>
+    <p>Доставка</p>
+  </div>
+  <div class="icons">
+    <img src="/images/mail_white.svg" alt="Mail">
+    <img src="/images/facebook_white.svg" alt="Facebook">
+    <img src="/images/instagram_white.svg" alt="Instagram">
+  </div>
+  <p class="copyright">2023 FRESH FLOWERS</p>
+  <img src="/images/scroll_button.svg" class="scroll-button" alt="To the top" onclick="scrollToTop()">
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

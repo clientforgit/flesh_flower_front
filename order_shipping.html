@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <title>FRESH FLOWERs</title>
+  <link href="/css/style.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+</head>
+<body>
+<div class="container">
+  <header class="layout header">
+    <div class="top-header">
+      <img src="/images/logo_dark.svg" class="header-logo" alt="Logo">
+      <div class="title-header-nav">
+        <b>Про нас</b>
+        <b>Каталог</b>
+        <b>FAQ</b>
+        <div class="title-header-icon">
+          <img src="/images/cart_dark.svg">
+          <img src="/images/user_dark.svg">
+        </div>
+      </div>
+      <div class="menu" onclick="open_hidden_header()">
+        <img src="images/menu_dark.svg">
+      </div>
+    </div>
+    <div class="hidden-header" id="hidden_header">
+      <h3>Про нас</h3>
+      <h3>Каталог</h3>
+      <h3>FAQ</h3>
+      <h3>Особистий кабінет</h3>
+      <h3>Корзина</h3>
+      <hr class="thin">
+    </div>
+  </header>
+  <div class="order-shipping-container layout">
+    <div class="order-path">
+      <p>Картка покупок</p>
+      <img id="inactive" src="images/arrow_right.svg">
+      <h3>Доставка</h3>
+      <img src="images/arrow_right.svg">
+      <p>Оплата</p>
+    </div>
+    <div class="order-content">
+      <div class="user-information">
+        <h2>Контакти</h2>
+        <div class="information-grid">
+          <div class="item">
+            <h3>Ім'я</h3>
+            <hr class="thin">
+          </div>
+          <div class="item">
+            <h3>Прізвище</h3>
+            <hr class="thin">
+          </div>
+          <div class="item">
+            <h3>E-mail</h3>
+            <hr class="thin">
+          </div>
+          <div class="item">
+            <h3>Номер телефону</h3>
+            <hr class="thin">
+          </div>
+        </div>
+        <p>Адреса доставки</p>
+        <div class="information-grid">
+          <div class="item">
+            <h3>Область</h3>
+            <hr class="thin">
+          </div>
+          <div class="item">
+            <h3>Місто</h3>
+            <hr class="thin">
+          </div>
+          <div class="item">
+            <h3>Адреса</h3>
+            <hr class="thin">
+          </div>
+          <div class="item">
+            <h3>Поштовий індекс</h3>
+            <hr class="thin">
+          </div>
+        </div>
+        <button class="go-to-payment">
+          Перейти до оплати
+        </button>
+        <p id="back-label">Назад до кошика</p>
+      </div>
+      <div class="order-cart">
+        <div class="order">
+          <h2>Карта покупок</h2>
+          <hr>
+          <div class="item">
+            <img src="/images/catalog_item6.png">
+            <div class="text">
+              <h3>Букет 'Солодка цукерка'</h3>
+              <p>Ціна: 1066 грн</p>
+              <p>Колір: фіолетовий/білий</p>
+              <p>Кількість: 1&nbsp;&nbsp;<img src="/images/arrow_down.svg"></p>
+            </div>
+          </div>
+          <hr>
+          <div class="item">
+            <img src="/images/catalog_item5.png">
+            <div class="text">
+              <h3>Букет 'Весняний промінь'</h3>
+              <p>Ціна: 1159 грн</p>
+              <p>Колір: фіолетовий/білий/жовтий</p>
+              <p>Кількість: 1&nbsp;&nbsp;<img src="/images/arrow_down.svg"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="layout">
+  <h2>FRESH FLOWERs</h2>
+  <div class="links">
+    <p>Про нас</p>
+    <p>Магазин</p>
+    <p>Контакти</p>
+    <p>Кошик</p>
+    <p>Доставка</p>
+  </div>
+  <div class="icons">
+    <img src="/images/mail_white.svg" alt="Mail">
+    <img src="/images/facebook_white.svg" alt="Facebook">
+    <img src="/images/instagram_white.svg" alt="Instagram">
+  </div>
+  <p class="copyright">2023 FRESH FLOWERS</p>
+  <img src="/images/scroll_button.svg" class="scroll-button" alt="To the top" onclick="scrollToTop()">
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
