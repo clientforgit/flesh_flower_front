@@ -15,7 +15,7 @@
 
 @font-face {
 	font-family: "Trajan Sans Pro";
-	src: url("https://clientforgit.github.io/flesh_flower_front/flesh_flower_front/fonts/TrajanSansPro-Regular.ttf");
+	src: url("https://clientforgit.github.io/flesh_flower_front/fonts/TrajanSansPro-Regular.ttf");
 }
 
 * {
@@ -68,7 +68,7 @@ body {
 }
 
 .title-container {
-	background-image: url("https://clientforgit.github.io/flesh_flower_front//background2.jpg");
+	background-image: url("https://clientforgit.github.io/flesh_flower_front/background2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
