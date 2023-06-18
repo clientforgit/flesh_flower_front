@@ -1,21 +1,21 @@
 @font-face {
 	font-family: "Cochin";
-	src: url("../fonts/CochinLTStd.ttf");
+	src: url("../flesh_flower_front/fonts/CochinLTStd.ttf");
 }
 
 @font-face {
 	font-family: "Gill Sans Light";
-	src: url("../fonts/GillSansLightC.ttf");
+	src: url("../flesh_flower_front/fonts/GillSansLightC.ttf");
 }
 
 @font-face {
 	font-family: "Liana";
-	src: url("../fonts/liana.ttf");
+	src: url("../flesh_flower_front/fonts/liana.ttf");
 }
 
 @font-face {
 	font-family: "Trajan Sans Pro";
-	src: url("../fonts/TrajanSansPro-Regular.ttf");
+	src: url("../flesh_flower_front/fonts/TrajanSansPro-Regular.ttf");
 }
 
 * {
@@ -68,7 +68,7 @@ body {
 }
 
 .title-container {
-	background-image: url("images/background2.jpg");
+	background-image: url("../flesh_flower_front/images/background2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -1255,7 +1255,7 @@ hr.thin {
 	}
 
 	.scroll-button {
-		content: url('images/scroll_button_mobile.svg');
+		content: url('../flesh_flower_front/images/scroll_button_mobile.svg');
 		width: 50px;
 		height: 50px;
 		top: 25px;
